@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>肆分宠-上海简书信息科技有限公司</title>
+    <!-- 设置 viewport -->
+    <!-- IE -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 兼容国产浏览器的高速模式 -->
+    <meta name="renderer" content="webkit">
+   <link rel="icon" href="http://shop-1252135873.cosgz.myqcloud.com/goods/favicon.ico.png" type="image/png">
+  <!-- <link rel="stylesheet" href="css/swiper.min.css" />-->
+   <link rel="stylesheet" href="css/idangerous.swiper.css" />
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery.min.js"></script>
+    <!--
+			      html5shiv.js 文件的作用
+			      * 用于可以让 IE 8 浏览器兼容 HTML5 提供的新元素 
+			      respond.js 文件的作用
+			      * 用于可以让 IE 8 浏览器兼容 CSS3 提供的媒体查询
+			     -->
+			    <!--[if lt IE 9]>
+				  <script src="js/html5shiv.min.js"></script>
+				  <script src="js/respond.min.js"></script>
+				  <![endif]-->
+				<!--添加测试代码-->
+    <style>
+    	
+    </style>
+
+
+</head>
+<script>
+	var browser=navigator.appName 
+   var b_version=navigator.appVersion 
+  var version=b_version.split(";"); 
+   var trim_Version=version[1].replace(/[ ]/g,"");// trim_Version=="MSIE6.0" IE6 trim_Version=="MSIE7.0"IE7
+  if(browser=="Microsoft Internet Explorer" ) { 
+    //alert("IE "); 
+    $('head').append('<link rel="stylesheet" href="css/ie.css"/>');
+   }
+
+</script>
+<body>
+	<div  style="min-width:1200px;">
+		<div class="first" id="floor1" name="floor1">
+			<div  name="top" class="first_banner">
+   	         <!-- <img src="img/banner_bg.png" alt="" style="min-width:1200px;width:100%" />-->
+   	        </div> 
+		</div>
+   	     <div class="container" style="height:900px;">
+   	     	 <!--导航-->
+   	     	  <div class="nav">
+	   	     	<div class="nav_container">
+	   	     	  <a href="javascript:void(0);" class="logo">肆分宠</a>
+			        <ul class="banner_ul navbar">
+			                  <li class="active">
+			                      <a href="#floo1">首页</a>
+			                  </li>
+			                  <li>
+			                      <a href="#floor2">OurAPP</a>
+			                  </li>
+			                  <li>
+			                      <a href="#floor3">宠物商城</a>
+			                  </li>
+			                  <li>
+			                      <a href="#floor4">宠物摄影</a>
+			                  </li>
+			                  <!--<li>
+			                      <a href="#floor4">关于我们</a>
+			                  </li>-->
+			                   <li>
+			                      <a href="#floor5">联系我们</a>
+			                  </li>
+			                  <!--<li class="last">
+			                      <a href="javascript:void(0);" data-toggle="dropdown" class="login">登录</a>
+			                  </li>-->
+			        </ul>
+			    </div>
+	   	     </div>
+   	          <div class="first_box ">
+	   	   	<div class="container">
+	   	     	<div class="first_content clear">
+				    <div class="banner_App">
+				    	  <p class="size0">一 QUARTER LOVER 一</p>
+				    	  <p class="size1">付出肆分之一</p>
+				    	  <p class="size1">就能让爱充满世界</p>
+				    	  <p class="size0">我们专注于宠物社交平台，致力于整合线上线下资源为</p>
+				    	  <p class="size0">用户提供宠物以及养宠相关的周边产品以及服务</p>
+				    	  <p class="btn_p">
+				    	  	   <!--下载isoAPP-->
+				    	  	 <a href="javascript:void(0);" id="download" class="active">下载 APP</a> 
+				    	      <!--下载android APP-->
+				    	    <!-- <a href="http://sj.qq.com/myapp/search.htm?kw=%E8%82%86%E5%88%86%E5%AE%A0">下载android APP</a>-->
+				    	     <a href="javascript:void(0);" id="sigin_form">注册新用户</a>
+				    	 </p>
+				    	  
+				    </div>
+				    <!--二微码-->
+				    <div class="code">
+				    	<img src="http://shop-1252135873.cosgz.myqcloud.com/goods/code.png" alt="" />
+				    </div>
+				     <!--注册表格-->
+		   	        <div class="form">
+						<form>
+						  <h2>注册新用户</h2>
+						   <input type="text" placeholder="请输入手机号" class="sigin_input0 phone_num " id="phone_num" />
+						   <input type="text" placeholder="请设置6-16位密码" class="sigin_input0 psw_num" id="psw_num" onblur="checkUserPwd('psw_num')";/>
+						   <input type="text" placeholder="请输入验证码"  class="sigin_input1 code_num" id="code_num" onblur="checkCodeNum('code_num')"/>
+						   <span class="send_btn" id="send_btn" onclick="sendPhoneCode();">发送验证码</span>
+						   <div class="sigin_btn " id="sigin_btn">确认注册</div>
+						   <a href="javascript:void(0);"  style="display:block;margin-top:20px"><span class="readed ">&radic;</span> <span id="agree" class="form_a">我已阅读并同意<<简书信息服务协议>></span></a>
+						</form>	    	 
+					</div> 
+		   	     </div>	
+	   	    </div>
+   	     </div>
+			   <!--箭头-->
+			   <a href="#floor2" class="arrow">↓</a>
+   	     </div>
+   	    
+   	    <!--简书信息服务协议-->
+   	    <div class="dailog1" id="agree_dailog">
+   	    	 <div class="dailog1_content">
+   	    	 	<h2>简书信息服务协议</h2>
+   	    	 	<p>
+   	    	 		&nbsp;&nbsp;&nbsp;&nbsp;动物、昆虫是人类的朋友！随着社会的进步、百姓的富裕，关爱身边的动物、昆虫等生命以为常态。我们搭建这一平台，旨在为爱宠人士提供交流、政府的政策和信息服务、宠物用品“去中间”化的电商服务、宠物选秀、宠物交易等等，以实现为爱宠人士提供友好、方便的体验和服务。
+					&nbsp;&nbsp;&nbsp;&nbsp;为了让爱宠人士能在注册QT宠物后获得完整的服务，同时也为了避免各方在提供或享受服务中能确保法定权责不受其它因素的干扰，特制定以下条款。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;双方约定，在本APP中所出现的“用户”是指向QT宠物申请注册成为会员的个人或者单位；用户同意此在线注册条款之效力如同用户亲自签字、盖章的书面条款一样，对双方均具有法律约束力。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;用户进入QT -APP会员注册程序即意味着用户已阅读并知晓本注册条款的所有内容，一旦完成注册，并通过认证、审核确认，才能事实完成注册程序，并能成为QT宠物的正式用户而享有所有本网站约定的权利。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size2">本注册条款自用户注册成功之日起在用户与QT宠物之间产生法律效力。</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第一条QT宠物服务简介：</span>QT宠物向其会员用户提供包括宠物“社交网络”、宠物周边物品电商、宠物周边服务、宠物周边活动在内的互联网信息服务。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第二条用户身份保证</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;2-1 用户承诺并保证自己是具有完全民事行为能力和完全民事权利能力的自然人、法人、实体或组织。用户在此保证所填写的用户信息是真实、准确、完整、及时的，并且没有任何引人误解或者虚假的陈述，且保证QT宠物在需要时可以通过用户所填写的联系方式与用户取得联系。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;2-2 用户应根据QT宠物对于相关服务的要求及时提供相应的身份证明等资料，以确保QT宠物平台能在需要时，提供相应的服务。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;2-3 用户承诺将及时更新其用户信息，以确保该等信息的有效性。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;2-4 若用户提供的资料或信息包含有不正确、不真实或错误的信息，注册有可能被拒绝或取消。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第三条有效注册的用户:</span>将接受QT宠物平台发送的邮件或短信，以确保注册会员能充分享受到QT宠物所提供或可能提供的权益。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第四条会员身份确认</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;4-1 用户注册时应提供有效的手机号，并设置相应的注册登录密码，用户凭手机号和登录密码享受QT宠物有效会员所应享受的服务。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;4-2 用户将对“用户名”和“密码”安全负全部责任，并且用户对以其用户名进行的所有活动和事件负全责。用户有权根据QT宠物规定的程序定期修改密码。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;4-3 非经QT宠物书面（包括邮件）同意，用户名和密码不得擅自转让或者授权他人使用，否则用户应承担由此造成的一切后果。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;4-4 用户若发现任何非法使用用户帐号或存在安全漏洞的情况，应请立即通告QT宠物。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第五条服务条款的修改和服务体系修订。</span></span>QT宠物有权在必要时修改服务条款，以更好地服务于用户。QT宠物服务条款一旦发生变动，将会在重要页面上提示和通告。若用户不同意所改动的内容，用户可以主动取消获得的网络服务或注销。如果用户继续享用QT宠物服务，则视为接受服务条款的变动。QT宠物保留随时修改其服务体系，包括但不限于价格和服务内容，且无需事先通知用户的权利。QT宠物修改或调整其服务内容和价格体系之前，用户就具体服务与QT宠物达成协议并已按照约定交纳费用的，QT宠物将按照已达成的协议执行至已交纳费用的服务期满为止。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第六条用户的权利和义务</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;6-1 用户有权拥有自己在QT宠物的用户名和密码，并有权利使用自己的用户名和密码随时登录并享用QT宠物网站的会员专区及服务。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;6-2 用户有权享受QT宠物提供的互联网信息服务。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;6-3 用户保证不会利用技术或其他手段破坏及扰乱QT宠物网站以及QT宠物其他关联客户或合作方的网站。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;6-4 对由于用户向QT宠物提供的联络方式有误以及用户用于接受QT宠物短信或推送的服务其网络环境或信号稳定性不佳而导致的一切后果，用户应自行承担责任，包括但不限于因用户未能及时收到QT宠物的相关通知而导致的后果和损失。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;6-5 用户保证其使用QT宠物服务时将遵从国家法律、行业惯例和社会公共道德，不会利用QT宠物提供的服务进行存储、发布、传播如下信息和内容：违反国家法律法规和政策的任何内容（信息）；违反国家规定的政治宣传和/或新闻信息；涉及国家秘密和/或安全的信息；封建迷信和/或淫秽、色情、有伤风化或民俗的信息或教唆犯罪的信息；博彩有奖、赌博游戏；违反国家民族和宗教政策的信息；防碍互联网运行安全的信息；侵害他人合法权益的信息和/或其他有损于社会秩序、社会治安、公共道德的信息或内容。用户同时承诺不得为他人发布上述不符合国家规定和/或本服务条款约定的信息内容提供任何便利，包括但不限于设置url、banner链接等。用户承认QT宠物有权在用户违反上述规定时，有权终止向用户提供服务并不予退还任何款项，因用户上述行为给QT宠物造成损失的，用户应予赔偿。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第七条QT宠物的权利和义务</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-1 QT宠物应根据用户选择的服务以及交纳款项的情况向用户提供合格的网络信息或商品服务。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-2 QT宠物承诺对用户资料采取加密病保密措施，不向任何第三方披露用户资料，不授权第三方使用用户资料，除非：<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-2-1 依据法律法规的规定应当提供；<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-2-2 行政、司法等有权部门要求QT宠物提供；<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-2-3 用户书面或邮件同意QT宠物向第三方提供；<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-2-4 用户在QT宠物上完成充值后需向另一方提供、但须“脱敏”这些信息。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-2-5 用户在发布信息时透露这些信息。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-3 在经用户书面同意后，QT宠物有权使用用户资料。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;7-4 QT宠物保留在用户违反国家、地方法律法规规定或违反本在线注册条款的情况下终止为用户提供服务并终止用户帐号的权利，并且在任何情况下，QT宠物对任何间接、偶然、特殊及继起的损害不负责任。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第八条服务的终止</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;8-1 用户有权随时申请终止其会员资格或其在QT宠物申请的一项或多项服务，终止后，QT宠物将收回所申请的的权利。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;8-2 QT宠物有权根据实际情况决定取消为用户提供的一项或多项服务，但应退还用户为该服务所交纳款项的剩余部分，除此之外QT宠物不承担任何责任。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;8-3 用户申请成为QT宠物会员后应当遵守QT宠物不时作出的关于反垃圾邮件的决议，用户承诺不会利用QT宠物的服务进行任何涉及垃圾邮件的行为，包括但不限于用户利用QT宠物服务器发送垃圾邮件；用户发送垃圾邮件中包含QT宠物服务器或ip地址的相关信息；用户所有的网站中包含出售邮件列表、邮件地址搜索软件、邮件群发软件等支持垃圾邮件服务的内容；用户发送的垃圾邮件中包含其在QT宠物注册域名信息等可能使国内及国际反垃圾邮件组织认为QT宠物或QT宠物用户与垃圾邮件事件有关的内容或信息。用户理解一旦发生垃圾邮件事件将对QT宠物及其所有用户造成不可挽回的巨大损失，因此QT宠物发现用户有涉及垃圾邮件的行为将立即停止为该用户提供任何服务，无论用户在QT宠物享有的服务是收费或者免费亦无论该服务是否直接与发送垃圾邮件的行为相关，QT宠物有权在用户涉及垃圾邮件事件时取消该用户的QT宠物会员资格并保留对因用户涉及垃圾邮件给QT宠物造成损失索赔的权利。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第九条争议解决及法律适用</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;9-1 因本服务条款有关的一切争议，双方当事人应通过友好协商方式解决。如果协商未成，双方同意向上海仲裁委员会提交仲裁并接受其仲裁规则。一方提请仲裁的时效为从争议发生之日起六个月。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;9-2 本注册条款的效力、解释、履行和争议的解决均适用中华人民共和国法律法规和计算机、互联网行业的规范。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第十条不可抗力</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;10-1 因不可抗力或者其他意外事件，使得本条款履行不可能、不必要或者无意义的，遭受不可抗力、意外事件的一方不承担责任。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;10-2 不可抗力、意外事件是指不能预见、不能克服并不能避免且对一方或双方当事人造成重大影响的客观事件，包括但不限于自然灾害如洪水、地震、瘟疫流行和风暴等以及社会事件如战争、动乱、政府行为等。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;10-3 用户同意鉴于互联网的特殊性，黑客攻击、互联网连通中断或者系统故障等属于不可抗力，由此给用户或者第三方造成的损失不应由QT宠物承担。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="size3">第十一条附则</span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;11-1 本注册条款中有关条款若被权威机构认定为无效，不应影响其他条款的效力，也不影响本服务条款的解释、违约责任及争议解决的有关约定的效力。<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;11-2 一方变更通知、通讯地址或其他联系方式，应自变更之日起及时将变更后的地址、联系方式通知另一方，否则变更方应对此造成的一切后果承担责任。用户同意，QT宠物的有关通知只需在QT宠物有关网页上发布即视为送达用户。用户在此再次保证已经完全阅读并理解了上述会员注册条款并自愿正式进入QT宠物会员在线注册程序，接受上述所有条款的约束。
+   	    	 	 
+   	    	 	</p>
+   	    	   <p id="close_btn"class="close_btn box-shadow1">x</p>
+   	    	 </div>
+   	    </div>
+   	    <!--验证弹出提示框-->
+   	    <div class="dailog">
+   	    	<div class="dailog_content">
+   	    		<p>手机号不能为空</p>
+   	    	</div>
+   	    </div>
+	</div>	 
+	  <!--轮播--> 
+	<div class="bg" id="floor2" name="floor2">
+		<div class="container">
+		  <div style="height:600px;">
+		  	<div class="device">
+			    <a class="arrow-left" href="javascript:void(0);"></a> 
+			    <a class="arrow-right" href="javascript:void(0);"></a>
+			    <div class="swiper-container floor2_container">
+			      <div class="swiper-wrapper floor2_wrapper">
+			        <div class="swiper-slide floor2_slide"> 
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/goods/banner_00.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/goods/banner_00.jpg',sizingMethod='scale');" >
+	            		 </div>	
+			        </div>
+			        <div class="swiper-slide"> 
+			           <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/goods/banner_01.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/goods/banner_01.jpg',sizingMethod='scale');" >
+	            		 </div>		
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/goods/banner_02.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/goods/banner_02.jpg',sizingMethod='scale');" >
+	            		 </div>	
+			        </div>
+			      </div>
+			    </div>
+			    <div class="pagination pagination0" id="pagination0"></div>
+			  </div>
+		</div>
+		 <a  href="#floor3" class="arrow0">↓</a>
+		</div>
+	
+	</div>
+	
+	<!--万能胶囊-->	     
+    <div class="container" id="floor3" name="floor3">
+    		<!--公告：2017年9月1日至11月1日 为答谢用户，肆分宠APP商城全部打折包邮。-->
+    	<div id="FontScroll">
+				    <ul id="ul_li">
+				    </ul>
+		</div>
+    	<div class="floor3"style="height:600px;width:100%">
+    	   <ul class="floor3_list clear">
+	    		<li class="active0">
+	    			<p class="floor3_name">宠物商城</p>
+	    			<p class="list_title list_title0">宠物食品</p>
+	    			<p class="list_text">提供物美价廉高质量的宠物食品的线上购买，其特色就是市面上难觅或者价格低于市价同时质量合格的商品，其中包括各类猫粮(幼小猫、成年猫等主粮)。
+</p>
+	    			<p class="p-btn" >查看更多</p>
+	    		    <div class="list_img list_img0 active">
+	    		    	<img src="http://shop-1252135873.cosgz.myqcloud.com/goods/list00.png" alt="" class="img"/>
+	    		    </div>
+	    		</li>
+	    		<li >
+	    			<p class="list_title">宠物用品</p>
+	    			<p class="list_text">提供物美价廉高质量的宠物用品的线上购买，其特色就是市面上难觅或者价格低于市价同时质量合格的商品，其中包括各中猫猫生活用具(猫砂盆，猫砂，猫提篮、提包等)。</p>
+	    		    <p class="p-btn" >查看更多</p>
+	    		    <div class="list_img list_img1 ">
+	    		    	<img src="http://shop-1252135873.cosgz.myqcloud.com/goods/list01.png" alt="" class="img"/>
+	    		    </div>
+	    		</li>
+	    		<li >
+	    			<p class="list_title">宠物玩具</p>
+	    			<p class="list_text">提供物美价廉高质量的宠物玩具的线上购买，其中包括各类玩具(狗咬胶，牵引绳，降温解渴的狗咬具，折叠猫隧道，狗咬骨头、狗咬胶垒球等玩具)。让小“宝宝”的快乐气氛，给你不一样的每一天。</p>
+	    		    <p class="p-btn" >查看更多</p>
+	    		    <div class="list_img list_img2">
+	    		    	<img src="http://shop-1252135873.cosgz.myqcloud.com/goods/list02.png" alt="" class="img"/>
+	    		    </div>
+	    		</li>
+	    		<li >
+	    			<p class=" list_title">护理保健</p>
+	    			<p class="list_text">护理保健给喵星人、狗狗提供了一份舒适快乐生活的保证;驱虫剂、各类皮肤病喷剂、诊断试纸，购买一份护理保健产品，为我们的小伙伴的健康生长提供一位真挚的“护卫”。</p>
+	    		    <p class="p-btn" >查看更多</p>
+	    		   <div class="list_img list_img3">
+	    		    	<img src="http://shop-1252135873.cosgz.myqcloud.com/goods/list03.png" alt="" class="img"/>
+	    		    </div>
+	    		</li>
+	    	</ul>
+    	</div>
+    	
+    	<a href="#floor4" class="arrow box-shadow1" style="bottom:-25px;">↓</a>
+    	 <div class="dailog1" id="more_dailog">
+   	    	 <div class="dailog1_content more_dailog_content">
+   	    	 	<h2>欢迎来到肆分宠</h2>
+   	    	 	<p class="more_text">
+   	    	 	   想了解更多，请返回首页 <br />扫码下载APP!
+   	    	 	</p>
+   	    	   <p id="close_btn0"class="close_btn0">x</p>
+   	    	 </div>
+   	    </div>
+   	    
+   	     
+
+   	    
+   	
+    </div>
+    <!--团队介绍-->
+    <!--<div class="bg" id="floor4" name="floor4">
+    	<div class="container" >
+	     	<div class="floor4_title">
+	     		<p><b>一</b> OUR TEAM <b>一</b></p>
+		     	<h3>团队介绍</h3>
+		     	<p>诚信、高效、创新、超越<br />
+		     	 人们在一起可以做出单独一个人所不能做出的事业；智慧+双手+力量结合在一起，几乎是万能的。
+		     	</p>
+	     	</div>
+	     	<ul class="team_list">
+	     		<li>
+	     			<img src="img/wom.jpg" alt="" />
+	     			<p class="per_name">创始人:刘丽娟</p>
+	     			<p class="per_info">长春理工大学经济学专业、兰州交通大学计算机通信专业;2007年至2013年就职于上海文广集团，从工程师逐步晋升为市场总监。
+曾于2010年获得由中共上海文化广播影视集团委员会颁发的SMEG先进工作者。2012年度荣获百视通贡献奖。
+2013年成立上海达天网络科技有限公司，主营三大电信运营商的带宽出口等软硬件服务，与三大运营商建立起良好的合作关系，业务蒸蒸日上。
+
+
+</p>
+	     		</li>
+	     		<li>
+	     			<img src="img/man.jpg" alt="" />
+	     			<p class="per_name">技术总监：王菲
+</p>
+	     			<p class="per_info">云南师范大学;在2008年之前从事企业ERP以及财务软件的开发和实施工作。并于2008年，在iPhone刚推出不久以及安卓还在襁褓中的时期就开始进行手机app的开发，曾经历了使用C#语言为微Smartphone进行开发，使用Ojbective-C开发iPhone的app，使用java开发安卓的app以及系统平台运行软件以及数据库。
+
+</p>
+	     		</li>
+	     		<li>
+	     			<img src="img/wom.jpg" alt="" />
+	     			<p class="per_name">市场总监:刘丽娜
+</p>
+	     			<p class="per_info">曾供职于台湾企业和日本在华企业，有丰富的市场推广经验</p>
+	     		</li>
+	     		<li>
+	     			<img src="img/man.jpg" alt="" />
+	     			<p class="per_name">iOS开发工程师:孔伟
+</p>
+	     			<p class="per_info">长春理工大学经济学专业;手机app开发工程师，曾供职于盛大网络科技有限公司，作为iOS和安卓两大平台的开发主力和项目主管，有着丰富手机app开发经验。
+
+</p>
+	     		</li>
+	     	</ul>
+	     	<!--<ul class="team_list">
+     		<li>
+     			<img src="img/person.png" alt="" />
+     			<p class="per_name">HALL</p>
+     			<p class="per_info">Lorem ipsum dolor sit amet</p>
+     		</li>
+     		<li>
+     			<img src="img/person.png" alt="" />
+     			<p class="per_name">HALL</p>
+     			<p class="per_info">Lorem ipsum dolor sit amet</p>
+     		</li>
+     		<li>
+     			<img src="img/person.png" alt="" />
+     			<p class="per_name">HALL</p>
+     			<p class="per_info">Lorem ipsum dolor sit amet</p>
+     		</li>
+     		<li>
+     			<img src="img/person.png" alt="" />
+     			<p class="per_name">HALL</p>
+     			<p class="per_info">Lorem ipsum dolor sit amet</p>
+     		</li>
+     	</ul>
+    	 <a href="#floor5" class="arrow box-shadow1 " style="bottom:-25px;">↓</a>
+    	</div>
+    </div>
+     -->
+     
+     <!--肆分宠摄影集-->	
+     <div class="bg" id="floor4" name="floor4">
+		<div class="container">
+		 <h3 class="photo_title">肆分宠摄影集</h3>
+		  <div style="height:600px;">
+		  	<div class="device">
+			    <a class="arrow-left" href="javascript:void(0);"></a> 
+			    <a class="arrow-right" href="javascript:void(0);"></a>
+			    <div class="swiper-container photo_container">
+			      <div class="swiper-wrapper floor2_wrapper">
+			      	 
+			        <div class="swiper-slide floor2_slide"> 
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_01.jpg);
+			        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_01.jpg',sizingMethod='scale');" >
+	            		</div>	
+			        </div>
+			        <div class="swiper-slide"> 
+			           <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_02.jpg);
+			           	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_02.jpg',sizingMethod='scale');" >
+	            		 </div>		
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_03.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_03.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			         <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_04.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_04.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			         <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_05.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_05.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			         <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_06.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo1_06.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_01.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_01.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_02.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_02.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_03.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_03.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_04.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_04.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_05.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo2_05.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			         <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_01.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_01.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_02.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_02.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_03.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_03.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_04.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_04.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_05.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_05.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_06.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo3_06.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			          <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_01.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_01.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_02.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_02.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_03.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_03.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_04.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_04.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_05.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_05.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_06.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_06.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			          <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_01.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_01.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_02.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_02.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_03.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_03.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_04.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_04.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_05.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo5_05.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			          <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_01.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_01.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_02.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_02.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_03.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_03.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_04.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_04.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_05.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_05.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			        <div class="swiper-slide">
+			          <div class="banner-img" style="background-image:url(http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_06.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo6_06.jpg',sizingMethod='scale');" >
+	            	  </div>	
+			        </div>
+			      </div>
+			    </div>
+			    <div class="pagination pagination2" id="pagination2"></div>
+			  </div>
+		</div>
+		 <!--<a  href="#floor5" class="arrow0">↓</a>-->
+		</div>
+	
+	</div>	
+     <div class="dog">
+     	<div class="container" >
+     		<ul class="dog_ul">
+     			<li>
+     				 <div class="box">
+					<img src="http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_01.jpg">
+					<div class="activity_content">
+						<h3 class="title0">奋斗</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">奋斗</h3>
+						<span class="post">昂首阔步，奔向目标! </span>
+					</div>
+				 </div>
+     			</li>
+     			<li>
+     				 <div class="box">
+					<img src="http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_02.jpg">
+					<div class="activity_content">
+						<h3 class="title0">潜伏</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">潜伏</h3>
+						<span class="post">伺机待发，一飞冲天! </span>
+					</div>
+				 </div>
+     			</li>
+     			<li>
+     				 <div class="box">
+					<img src="http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_03.jpg">
+					<div class="activity_content">
+						<h3 class="title0">掠夺</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">掠夺</h3>
+						<span class="post">把握机会，收入囊中!</span>
+					</div>
+				 </div>
+     			</li>
+     			<li>
+     				 <div class="box">
+					<img src="http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_04.jpg">
+					<div class="activity_content">
+						<h3 class="title0">洒脱</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">洒脱</h3>
+						<span class="post">减轻烦恼，实时放纵! </span>
+					</div>
+				 </div>
+     			</li>
+     			<li>
+     				 <div class="box">
+					<img src="http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_05.jpg">
+					<div class="activity_content">
+						<h3 class="title0">散步</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">散步</h3>
+						<span class="post">贴近自然,吸收精华，孕育安康!</span>
+					</div>
+				 </div>
+     			</li>
+     			<li>
+     				 <div class="box">
+					<img src="http://shop-1252135873.cosgz.myqcloud.com/qtlover/photo4_06.jpg">
+					<div class="activity_content">
+						<h3 class="title0">嘻戏</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">嘻戏</h3>
+						<span class="post">阳光照射着大地,林与间嘻戏玩耍!</span>
+					</div>
+				 </div>
+     			</li>
+     		</ul>
+     		<a href="#floor5" class="arrow box-shadow1" style="bottom:-25px;">↓</a>
+        </div>
+     </div>
+     <!--联系我们-->
+    <div  id="floor5" name="floor5">
+    	<div class="container" >
+    		<!--title-->
+    		<div class="contact_title">
+    			<div class="lf contact_left">
+    				<p><b>一</b> CONTACT US</p>
+			     	<h3>联系我们</h3>
+			     	<p>诚信至上，服务大家 <br />
+			     	欢迎您通过以下联系方式跟我们联系
+			     	</p>
+    			</div>
+    			<div class="rt contact_right">
+    					<a href="" class="article_btn box-shadow">阅读所有文章</a>
+    				
+    			</div>
+    		</div>
+    		<!--底部轮播-->
+    	   <div class="swiper-container  floor5_container">
+		        <div class="swiper-wrapper">
+		            <!--<div class="swiper-slide floor5_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            	  <div class="slide_div_text">
+		            		<h2>常见问题Q&A</h2>
+		            		<p class="contact_time">on Mar 21, 2017 9:58 AM</p>
+		            		<p class="border"></p>
+		            		<p class="contact_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
+		            	    <p class="contact_last">
+		            	    	 <span class="comment_span">24 comments</span>
+		            	         <span class="user_img0 rt"></span>
+		            	    </p>
+		            	  </div> 
+		            	</div>
+		            </div>-->
+		            <div class="swiper-slide floor5_slide" >
+		            	<div class="slide_div box-shadow1 slide_div0">
+		            		<div class="slide_div_text">
+		            			<h2>在线客服</h2>
+			            		<p class="contact_time">10:00 — 18:00(周一 ~周五)</p>
+			            		<p class="border"></p>
+			            		<p class="contact_content">
+			            			联系地址：上海市徐汇区上中路479号217室<br>
+			            			客服电话：13795203325<br>
+			            			客服QQ：3326609166
+			            		</p>
+			            	    <p class="contact_last">
+			            	    	 <span class="comment_span"></span>
+			            	         <span class="user_img1 rt"></span>
+			            	    </p>
+		            		</div>
+		            		
+		            	   
+		            	</div>
+		            	
+		            </div>
+		            <div class="swiper-slide floor5_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            	  <div class="slide_div_text">
+		            		<h2>联系方式</h2>
+		            		<p class="contact_time">10:00 - 18:00</p>
+		            		<p class="border"></p>
+		            		<p class="contact_content">
+		            			欢迎新老客户，服咨询服务！肆分宠将为您提供优质的服务<br>
+		            			联系电话：021-54795767<br>
+		            			联系邮箱：11209976308@qq.com<br>
+		            			微信号：QuarterLover
+		            		</p>
+		            	    <p class="contact_last">
+		            	    	 <span class="comment_span"></span>
+		            	         <span class="user_img2 rt"></span>
+		            	    </p>
+		            	  </div> 
+		            	</div>
+		            </div>
+		            <div class="swiper-slide floor5_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            	  <div class="slide_div_text">
+		            		<h2>常见问题Q&A</h2>
+		            		<p class="contact_time">10:00 - 18:00(周一 ~周五)</p>
+		            		<p class="border"></p>
+		            		<p class="contact_content">
+		            			平台出现各种问题，欢迎来电咨询，我们会有专业的技术人员为您解答;对我们平台有兴趣，也可加入我们一起探讨！
+		            		</p>
+		            	    <p class="contact_last">
+		            	    	 <span class="comment_span"></span>
+		            	         <span class="user_img0 rt"></span>
+		            	    </p>
+		            	  </div> 
+		            	</div>
+		            </div>
+		            
+		           
+		           
+		        </div>
+        
+            <div class="pagination pagination1"id="pagination1"></div>
+          </div>
+    	 
+    	</div>
+    </div>
+     <!--底部-->
+    <div id="footer" class="foot_bg">
+     	<div class="container">
+    	 <div class="footer_substance">
+			<!--<p class="top_p">沪ICP备16037609号</p>-->
+			<p class="top_p">
+				<img src="http://114.55.100.124:18080/static/web/images/jcba.png" style="width: 18px; height: 18px;">
+			    <span>沪ICP备16037609号</span>
+			</p>
+			<p >Copyright © 2017 上海简书信息科技有限公司版权所有  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;服务热线：021-54795767   </p>
+		 </div>
+        </div>
+     </div>
+<!--<script src="js/swiper.min.js"></script>-->
+<script src="js/idangerous.swiper2.7.6.js"></script>
+<script src="js/fontscroll.js"></script>
+<!-- 引入 Bootstrap 的 JS 文件 -->
+<!--返回顶部-->
+<a href="javascript:void(0);" class="backtop" style="display:none" ></a>
+<script>
+	
+$(function(){
+    var arr=["公告：2017年9月1日至11月1日      为答谢用户，肆分宠APP商城全部打折包邮。"];
+    var temp='';
+    for(var i=0;i<arr.length;i++){
+        temp+='<li><a href="#">'+arr[i]+'</a></li>';
+    }
+    $("#ul_li").append(temp);
+    $('#FontScroll').FontScroll({time: 3000,num: 1});
+});
+    // 我们自己的 JS 代码
+ $(document).ready(function(){
+     window.onresize=setBackTop;
+    setBackTop();
+//  轮播
+   var mySwiper = new Swiper('.floor2_container', {
+	   	   pagination:'.pagination0',
+	   	    grabCursor:true,
+//		     mousewheelControl:true,
+		    paginationClickable: true,
+	        speed:2000,
+	        autoplay:3000,
+	        loop:true
+    });
+    //  轮播
+   var mySwiper = new Swiper('.photo_container', {
+	   	   pagination:'.pagination2',
+	   	    grabCursor:true,
+//		     mousewheelControl:true,
+		    paginationClickable: true,
+	        speed:2000,
+	        autoplay:3000,
+	        loop:true
+   });
+    $('.floor2_container').mouseover(function(){
+//  	  console.log("鼠标进入");
+              mySwiper.stopAutoplay();
+        });
+    $('.floor2_container').mouseout(function(){
+//  	console.log("鼠标移除");
+             mySwiper.startAutoplay();
+        });         
+//  startAutoplay();
+    $('.arrow-left').on('click', function(e){
+//  	console.log("1");
+	    e.preventDefault();
+	    mySwiper.swipePrev();
+  })
+	$('.arrow-right').on('click', function(e){
+	    e.preventDefault();
+	    mySwiper.swipeNext();
+	  })
+    //底部滑动
+    
+    var swiper = new Swiper('.floor5_container', {
+        pagination: '.pagination1',
+        slidesPerView:2.5,
+        paginationClickable:true,
+        grabCursor:true,
+        freeMode:true
+    });
+    //导航切换
+    $('.banner_ul li').click(function(){
+    	$(this).addClass("active").siblings().removeClass("active");
+    	var index=$(this).index();
+    	if(index==5){
+    	}
+   });
+   })
+    /**定位箭头*/
+  $(".floor3_list>li").click(function(){
+//  	console.log("1");
+        var index=$(this).index();
+        var list_img= $('.list_img');
+//      console.log(index);
+         var other=list_img.eq(index).addClass("active").parent().siblings().find('.list_img').removeClass("active");
+//      console.log(other);
+        $(this).addClass("active"+index).siblings().removeAttr("class");
+    })
+   
+   //表单，下载按钮切换
+   $('.btn_p a').on('click',function(){
+   	 $(this).addClass("active").siblings().removeClass("active");
+   	 var i=$(this).index();
+   	 if(i==0){
+   	 	$(".form").css('display','none');
+   	 	$('.code').css('display','block');
+   	 }else{
+   	 	$(".code").css('display','none');
+   	 	$('.form').css('display','block');
+   	 	
+   	 }
+   })
+   //查看更多
+   $('.p-btn').on("click",function(){
+   	$("#more_dailog").fadeIn(300);
+   	 $(document.body).css({
+		   "overflow-x":"hidden",
+		   "overflow-y":"hidden"
+		 });
+   })
+   $('#close_btn0').click(function(){
+  	//启用滚动条
+		 $(document.body).css({
+		   "overflow-x":"auto",
+		   "overflow-y":"auto"
+		 });
+  	$('#more_dailog').fadeOut(300);
+  })
+    /*返回顶部图标及位置*/
+function setBackTop(){
+    var h=$(window).height()/2;
+    var w=$(window).width();
+    if(w>1200){
+    	 $(".backtop").css({right:((w-1200)/4)+"px"});
+    }else{
+    	$(".backtop").css({right:20+"px"});
+    }
+   
+    window.onscroll=function(){
+        if(document.body.scrollTop>=h||document.documentElement.scrollTop>=h){
+            $(".backtop").fadeIn(300);
+        }else{
+            $(".backtop").fadeOut(300);
+        }
+    }
+}
+$(".backtop").click(function(){
+        $('body,html').animate({scrollTop:0},800);
+        return false;
+    });
+    //弹出协议
+  $('#agree').click(function(){
+    	//禁用滚动条
+     $('body,html').animate({scrollTop:0},10);
+    	 $(document.body).css({
+		   "overflow-x":"hidden",
+		   "overflow-y":"hidden"
+		 });
+  	$('#agree_dailog').fadeIn(300);
+  })
+  $('#close_btn').click(function(){
+  	//启用滚动条
+		 $(document.body).css({
+		   "overflow-x":"auto",
+		   "overflow-y":"auto"
+		 });
+  	$('#agree_dailog').fadeOut(300);
+  })
+  
+  
+  //
+  //协议勾选
+  $('.readed').click(function(){
+  	var i=$(".readed").hasClass("active");
+   console.log(i);
+  	if(!i){
+  		$(this).addClass("active");
+  		$('#sigin_btn').addClass("active");
+  		
+		$('#sigin_btn').click(function(){
+			 var strPhone=$('#phone_num').val();
+			 var psw_num=$('#psw_num').val();
+			 var code_num=$('#code_num').val();
+            if(checkPhone(strPhone)&&checkUserPwd('psw_num')&&checkCodeNum('code_num')){
+            	 $.ajax({
+			         type: "POST",
+			         url: "http://www.petclub.info:30151/invitation/registers?phoneNumber="+strPhone+"&passWord="+psw_num+"&code="+code_num+"&registerSource=2&platform=''&token=''&invitation=''",	            
+//			         data:{"phoneNumber":strPhone,
+//			         "passWord":psw_num,
+//			         "code":code_num,
+//			         "registerSource":2,
+//			         "platform":"",
+//			         "token":"",
+//			         "invitation":""
+//			         },
+			         dataType: "jsonp",
+		             jsonp:'callback',
+			         success: function(data){
+			                      alert(data.msg); 
+			             $('#phone_num').val("");
+			             $('#psw_num').val("");
+			             $('#code_num').val("");
+			             $('#sigin_btn').removeClass("active");
+  		                 $('#sigin_btn').unbind("click");
+  		                 $(".readed").removeClass("active");
+  		                 $(".form").css('display','none');
+			                     },
+			         error:function(data) {
+							      alert("服务器出错，请联系客服！");
+							     }
+			         });
+   	 	    }else{
+   	 	    	//alert("请填写把信息完全!");
+   	 	    }
+      })
+  		
+  	}else{
+  		$(this).removeClass("active");
+  		$('#sigin_btn').removeClass("active");
+  		$('#sigin_btn').unbind("click");
+  		
+  	}
+
+  })
+  
+  //验证码倒计时
+ function timeoutButton(p_iExpireTime, p_sElementId, p_iType){
+    var oElement = $('#' + p_sElementId);
+
+    if (!oElement.hasClass('unclick'))
+    {
+        oElement.toggleClass("unclick");
+        oElement.unbind("click");
+    }
+
+    if (p_iExpireTime <= 1)
+    {
+        oElement.toggleClass("unclick");
+        oElement.text("发送验证码");
+        $("#not_received").show();
+    }
+    else
+    {
+        p_iExpireTime -= 1;
+        oElement.text(p_iExpireTime + "后重新发送");
+        setTimeout('timeoutButton('+ p_iExpireTime +', "'+ p_sElementId +'",'+ p_iType +')',"1000");
+    }
+}
+
+//验证信息提示
+ function DIVText(html){
+ 	var DIV=$('.dailog');
+ 	var DIVT=$('.dailog .dailog_content p');
+ 	DIVT.text(html);
+// 	console.log("1");
+ 	DIV.show().delay(1500).fadeOut();
+ }
+ //验证 验证码
+  function checkCodeNum(codeId){
+  	 var codeNum=$("#"+codeId).val();
+  	if(codeNum == ''){
+    	DIVText("验证码不能为空！");
+         $('#code_num').addClass('err');
+        return false;
+    }
+  	else if(codeNum.length!= 6){
+        $('#code_num').addClass('err');
+        DIVText("输入6位数的验证码！");
+        return false;
+    } 
+    else{
+    	$('#code_num').removeClass('err');
+    	return true;
+    }
+  }
+  //验证电话号码
+  function checkPhone(strPhone){
+    var sReg = /^(1[34578]{1,1}[0-9]{9,9})$/;
+    if(strPhone == ''){
+    	DIVText("电话不能为空！");
+         $('#phone_num').addClass('err');
+        return false;
+    }
+    else if(strPhone.length!= 11 || !sReg.test(strPhone)){
+        $('#phone_num').addClass('err');
+        DIVText("输入正确的电话号码！");
+        return false;
+    }
+    else{
+    	$('#phone_num').removeClass('err');
+    	return true;
+    }
+   }
+ //验证密码
+ function checkUserPwd(strId){
+    var str=$("#"+strId).val();
+    if(str == ''){
+    	DIVText("密码不能为空！");
+        $('#psw_num').addClass('err');
+        return false;
+    }
+    if(str.length< 6 || str.length > 16){
+    	DIVText("密码位数不少于6位,最多不能超过16位！");
+    	 $('#psw_num').addClass('err');
+        return false;
+    }
+    var re_num    = /^[0-9]+$/g;
+    var re_char	  = /^[a-zA-Z]+$/gi;
+    var re_spchar = /^[^0-9a-zA-Z]+$/gi;
+    if( re_num.test(str) || re_char.test(str) || re_spchar.test(str)){
+    	DIVText("密码格式不对(字母和数字结合)！");
+        $('#psw_num').addClass('err');
+        return false;
+    }else{
+     $('#psw_num').removeClass('err');
+     return true;
+    }
+}
+  //发送验证码
+ function sendPhoneCode(){
+ 	 var strPhone=$('#phone_num').val();
+ 	 if($('#send_btn').hasClass('unclick')){
+// 	 	$('#send_btn').unbind('click');
+        return;
+    }
+ 	 if(checkPhone(strPhone)){
+ 	 	//alert(strPhone);
+ 	 	$.ajax({
+                  url: "http://www.petclub.info:30151/invitation/verificationCodes?phoneNumber="+strPhone+"&type=1",
+                    type: "GET",
+                     dataType: "jsonp", //指定服务器返回的数据类型
+                      jsonp:'callback',
+                     error:function(XMLHttpRequest, textStatus, errorThrown) {
+//					       alert(XMLHttpRequest.status);
+//					       alert(XMLHttpRequest.readyState);
+					       alert(textStatus);
+					     },
+                    success: function(data) {
+                    	console.log(data);
+                       console.log(data.msg);
+                       if(data.success){
+                       	//  timeoutButton(60,'send_btn',1);
+                       	   alert(data.msg);
+                       	   $('#code_num').val(data.test);
+                       }else{
+                       	 alert(data.msg+"请扫码，下载肆分宠App！");
+                       }
+                    }
+                 });
+                	  timeoutButton(60,'send_btn',1); 
+		    }
+ }
+  //判断浏览器是否支持placeholder属性
+ $(function(){  
+  supportPlaceholder='placeholder'in document.createElement('input'),
+  placeholder=function(input){
+    var text = input.attr('placeholder'),
+    defaultValue = input.defaultValue;
+    if(!defaultValue){
+      input.val(text).addClass("phcolor");
+    }
+    input.focus(function(){
+      if(input.val() == text){
+        $(this).val("");
+      }
+    });
+    input.blur(function(){
+      if(input.val() == ""){
+        $(this).val(text).addClass("phcolor");
+      }
+    });
+    //输入的字符不为灰色
+    input.keydown(function(){
+      $(this).removeClass("phcolor");
+    });
+  };
+  //当浏览器不支持placeholder属性时，调用placeholder函数
+  if(!supportPlaceholder){
+    $('input').each(function(){
+      text = $(this).attr("placeholder");
+      if($(this).attr("type") == "text"){
+        placeholder($(this));
+      }
+    });
+  }
+ 
+});
+</script>
+</body>
